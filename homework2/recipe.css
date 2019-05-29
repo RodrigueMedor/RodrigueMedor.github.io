@@ -1,11 +1,15 @@
 body{
 	background-image: url("images/silverware.jpg");
 	background-repeat: repeat-x;
-	background-position: 370px 10px;
+	background-position: 50px 20px;
 }
 p{
 	background-color: green;
-	border-left: 200px;
-	border-right: 200px;
+	margin-left: 230px;
+	margin-right: 230px;
 	
+}
+img{
+	width:250px;
+	height: 300px;
 }
