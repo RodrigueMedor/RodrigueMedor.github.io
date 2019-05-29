@@ -1,11 +1,57 @@
 body{
 	background-image: url("images/silverware.jpg");
-	background-repeat: repeat-x;
-	background-position: 370px 10px;
+	background-repeat: repeat;
+	background-position: 50px 20px;
+}
+#image{
+	
 }
 p{
-	background-color: green;
-	border-left: 200px;
-	border-right: 200px;
+	background-color: #f0f0d0;
+	margin-left: 230px;
+	margin-right: 230px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-indent: 50px;
+	letter-spacing: 3px;
+	line-height: 0.8;
+	text-align:center;
+	color: #B6B12D;
 	
+}
+p~h2{
+	background-color: #f0f0d0;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: #B6B12D;
+	width:200px;
+	
+}
+ul{
+  list-style-image: url('images/pie_icon.gif');
+}
+p~.text{
+	background-color: #ffff80;
+	margin-left: 50px;
+	width: 850px;
+	font-style: italic;
+	
+}
+hr{
+	border-top: 1px solid red;
+}
+#block{
+	
+}
+
+p~em{
+	font-style: italic;
+	font-size: 12px;
+	text-decoration: underline;
+	color:#E8E12F;
+}
+p~#footer{
+	float:right;
+	display:block;
 }
