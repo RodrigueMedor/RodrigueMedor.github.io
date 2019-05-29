@@ -5,5 +5,7 @@ body{
 }
 p{
 	background-color: green;
+	border-left: 200px;
+	border-right: 200px;
 	
 }
