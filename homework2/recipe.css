@@ -5,6 +5,6 @@ body{
 }
 body + p{
 	background-color: green;
-	width: 80%;
+	width: 100px;
 	
 }
