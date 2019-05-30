@@ -45,19 +45,13 @@ p~em{
 	text-decoration: underline;
 	color:#E8E12F;
 }
-p~#footer{
+p~.footer{
 	float:right;
 	display:block;
-	background-color: red;
-	height: 20px;
 }
 p{
 	background-color: green;
 	margin-left: 230px;
 	margin-right: 230px;
 	
-}
-img{
-	width:250px;
-	height: 300px;
 }
