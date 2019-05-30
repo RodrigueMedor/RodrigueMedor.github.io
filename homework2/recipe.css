@@ -45,6 +45,12 @@ p~em{
 	text-decoration: underline;
 	color:#E8E12F;
 }
+p~#footer{
+	float:right;
+	display:block;
+	background-color: red;
+	height: 20px;
+}
 p{
 	background-color: green;
 	margin-left: 230px;
