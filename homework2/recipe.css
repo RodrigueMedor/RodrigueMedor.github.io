@@ -19,8 +19,8 @@ p+h1{
 .image{
 	background-image: url(images/pie.jpg);
 	background-repeat: no-repeat;
-	width: 450px;
-	height: 380px;
+	width: 400px;
+	height: 300px;
 	
 }
 p~h2{
@@ -57,6 +57,5 @@ p~.footer{
 	display:block;
 }
 .image+table{
-	margin-top: -90px;
 	font-style: oblique;
 }
