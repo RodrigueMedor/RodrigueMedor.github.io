@@ -243,6 +243,7 @@ ul.a{
   height: 2px;
   font-size: 2.5em;
   margin-left: 700px;
+  text-shadow: 2px 3px 3px #a5a5a5;
 }
 
 .containerRigth{
