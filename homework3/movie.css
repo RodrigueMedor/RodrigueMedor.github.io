@@ -1,0 +1,268 @@
+body{
+	background-image: url("images/background.png");
+	background-repeat: repeat;
+	background-position: 50px 20px;
+}
+/* background color */
+.container{
+  border: 4px solid #a5a5a5;
+  padding: 10px;
+  border-radius: 25px;
+  width: 700px;
+  height: 1040px;
+  margin-left: 450px;
+  margin-top: 40px;
+  background-color:#9ed170;
+  
+}
+
+.imageTop{
+  background-image: url("images/banner.png");
+  background-repeat: repeat-x;
+  height: 40px;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.image{
+  background-image: url("images/overview.png");
+  background-repeat: no-repeat;
+width:250px;
+height: 400px;
+  float: right;
+  margin-right: -10px;
+  margin-top: -10px;
+  border-radius:0px 25px 0px 0px;
+}
+/* divison the right space */
+.divided{
+  background-image: url("images/background.png");
+  background-repeat: repeat;
+  width:470px;
+  margin-top: -10px;
+height: 1030px;
+  float: left;
+  margin-left: -10px;
+  border-radius:22px 0px 0px 0px;
+}
+/* image 33% */
+.divided1{
+  background-image: url("images/rbg.png");
+  background-repeat: repeat-x;
+  height: 200px;
+  border-radius:22px 0px 0px 0px;
+}
+/* logo :left */
+.litle{
+  background-image: url("images/rottenbig.png");
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  float: left; 
+  border-radius:22px 0px 0px 0px;
+}
+/* css :right number */
+.number{
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: inherit;
+  color: red;
+  padding-top: 20px;
+}
+/* divisions */
+#rcorners {
+  border-radius: 10px;
+  border: 2px solid #a5a5a5;
+  padding: 10px;
+  width: 200px;
+  height: 90px;
+  margin-top: -100px;
+  margin-left: 8px;
+  background-color: #F5DEB3;
+}
+#rcorners p{
+  font-size: 12px;
+  margin-top: -5px;
+  margin-right: -8px;
+}
+
+#rcorners2 {
+  border-radius: 10px;
+  border: 2px solid #a5a5a5;
+  padding: 20px;
+  width: 180px;
+  float: right;
+  font-size: 11px;
+  height: 70px;
+  margin-top: -115px;
+  margin-right: 6px;
+  background-color: #F5DEB3;
+}
+#rcorners2 p{
+  font-size: 12px;
+  margin-top: -20px;
+  margin-right: -8px;
+}
+
+ul{
+  background-image: url("images/critic.gif");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  float: left; 
+  text-align: left;
+}
+
+ul.a{
+  background-image: url("images/critic.gif");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  height: 50px;
+  width: 150px;
+  float: right; 
+  margin-right: 20px;
+}
+
+.b{
+  border-radius: 10px;
+  border: 2px solid #a5a5a5;
+  padding: 20px;
+  width: 180px;
+  height: 40px;
+  float: right;
+  margin-right: 6px;
+  background-color: #F5DEB3;
+}
+.b p{
+  font-size: 14px;
+  margin-top: -15px;
+  margin-right: -8px;
+}
+.c{
+  border-radius: 10px;
+  border: 2px solid #a5a5a5;
+  padding: 20px;
+  width: 180px;
+  height: 40px;
+  float: left;
+  font-size: 11px;
+  margin-left: 8px;
+  background-color: #F5DEB3;
+}
+.c p{
+  font-size: 14px;
+  margin-top: -15px;
+  margin-right: -8px;
+}
+.d{
+  border-radius: 10px;
+  border: 2px solid #a5a5a5;
+  padding: 20px;
+  width: 180px;
+  height: 10px;
+  float: left;
+  margin-left: 8px;
+  background-color: #F5DEB3;
+
+}
+.d p{
+  font-size: 14px;
+  margin-top: -10px;
+  margin-right: -8px;
+}
+
+.e{
+  border-radius: 10px;
+  border: 2px solid #a5a5a5;
+  padding: 20px;
+  width: 180px;
+  height: 40px;
+  float: right;
+  margin-right: 6px;
+  background-color: #F5DEB3;
+}
+.e p{
+  font-size: 14px;
+  margin-top: -15px;
+  margin-right: -8px;
+}
+.f{
+  border-radius: 10px;
+  border: 2px solid #a5a5a5;
+  padding: 20px;
+  width: 180px;
+  height: 40px;
+  float: left;
+  font-size: 11px;
+  margin-left: 8px;
+  background-color: #F5DEB3;
+}
+.f p{
+  font-size: 14px;
+  margin-top: -20px;
+  margin-right: -8px;
+}
+
+#img1{
+  background-image: url("images/rotten.gif");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  height: 25px;
+  width: 30px;
+  float: left;
+  margin-left: -20px;
+  margin-top: -15px;
+}
+#img2{
+  background-image: url("images/rotten.gif");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  height: 25px;
+  width: 30px;
+  float: left;
+  margin-left: -15px;
+  margin-top: -15px;
+  
+}
+
+#pomme{
+  background-image: url("images/fresh.gif");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  height: 25px;
+  width: 30px;
+  float: left;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+
+.textHead{
+  width: 100px;
+  height: 5px;
+  color:red;
+  margin-left: 750px;
+}
+
+.containerRigth{
+  float: right;
+  width: 230px;
+  height: 625px;
+  border: 0px solid red;
+}
+.containerRigth h3{
+  list-style-type: lower-alpha;
+  margin-top: -2px;
+  font-size: 12px;
+}
+.containerRigth ol{
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+#text{
+  margin-right: 300px;
+text-align: center;
+
+}
