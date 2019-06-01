@@ -239,10 +239,10 @@ ul.a{
 }
 
 .textHead{
-  width: 100px;
-  height: 5px;
-  color:red;
-  margin-left: 750px;
+  width: 100%;
+  height: 2px;
+  font-size: 2.5em;
+  margin-left: 700px;
 }
 
 .containerRigth{
