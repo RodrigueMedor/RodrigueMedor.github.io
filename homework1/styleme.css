@@ -1,0 +1,26 @@
+.container{
+    background-color:gray;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container h1{
+    font-family:  serif;
+    color: #B0C4DE;
+    margin-left: 10px;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+}
+h2{
+    font-size: 25px;
+    margin-left: 10px;
+    font-family:  serif;
+    color: #B0C4DE;
+}
+em{
+    color: yellow;
+}
+p{
+    font-size: 16px;
+}
