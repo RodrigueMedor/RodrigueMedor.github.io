@@ -1,0 +1,85 @@
+.container{
+    width: 70%;
+    margin-left: 15%;
+    
+
+}
+.header{
+    background-color: #E8FBFB;
+    width: 100%;
+    height: 100px;
+}
+.head{
+    float: right;
+   
+}
+#figure{
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    background-color: #E8FBFB;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-style: oblique;
+}
+.figureRigth{
+    height: 250px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    background-color: #E8FBFB;
+    float: right;
+    margin-top:-190px;
+    width: 79%;
+}
+#figureRigth{
+    height: 250px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    background-color: #E8FBFB;
+    float: right;
+    margin-top: 20px;
+    width: 79%;
+}
+
+h2 em{
+    text-decoration: underline dashed red;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* text-decoration: underline dotted red; */
+}
+#inside p{
+    padding-top: 20px;
+    width: 85%;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#inside1 img{
+    float: right;
+    margin-top:-50px;
+    height: 150px;
+}
+#inside2 img{
+    float: right;
+    margin-top:20px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+#inside3 p{
+    padding-top: 20px;
+    width: 85%;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+#inside4 p{
+    width: 85%;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#footer{
+    margin-top: 350px;
+}
