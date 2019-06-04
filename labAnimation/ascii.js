@@ -121,7 +121,7 @@
    var textarea=document.getElementById("myArea");
 
         var isStarted = false,
-            speed = 200,arr,intervalId = 0,     index = 0;
+            speed = 250,arr,intervalId = 0,     index = 0;
 
         start.onclick = function(e){
             if(arr===undefined) {return;}
@@ -191,7 +191,7 @@
 
         turbo.onchange = function(){
             console.log(speed);
-            if( this.checked ){
+            if( this.checked==true ){
                 speed = speed/2;
             }else{
                 speed = speed * 2;
