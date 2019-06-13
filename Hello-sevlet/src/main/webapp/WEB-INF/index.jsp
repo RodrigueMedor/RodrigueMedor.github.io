@@ -1,5 +1,7 @@
+<%@page import="com.mum.edu.model.User"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@  taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     <%@ page isELIgnored="false" %> 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -114,7 +116,13 @@
 						</div>
 						<div class="form-group">
 							<div class="custom-control custom-checkbox">
-								<input type="checkbox" class="custom-control-input" id="customControlInline">
+							
+								<input type="checkbox" class="custom-control-input" 
+								<c:if test="${cookie.containsKey('roro') }">  
+								checked
+								
+								</c:if>
+								name="ckeck" id="customControlInline" value="yes">
 								<label class="custom-control-label" for="customControlInline">Remember me</label>
 							</div>
 						</div>
