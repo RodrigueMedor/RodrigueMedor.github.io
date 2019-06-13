@@ -1,12 +1,10 @@
 body{
+	background-image: url("images/silverware.jpg");
 	background-repeat: repeat;
 	background-position: 50px 20px;
 }
-#image{
-	
-}
-p{
-	background-color: #f0f0d0;
+p+h1{
+	background-color: #e7e7a9;
 	margin-left: 230px;
 	margin-right: 230px;
 	font-size: 20px;
@@ -16,6 +14,13 @@ p{
 	line-height: 0.8;
 	text-align:center;
 	color: #B6B12D;
+	
+}
+.image{
+	background-image: url(images/pie.jpg);
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 300px;
 	
 }
 p~h2{
@@ -40,9 +45,6 @@ p~.text{
 hr{
 	border-top: 1px solid red;
 }
-#block{
-	
-}
 
 p~em{
 	font-style: italic;
@@ -50,17 +52,10 @@ p~em{
 	text-decoration: underline;
 	color:#E8E12F;
 }
-p~#footer{
+p~.footer{
 	float:right;
 	display:block;
 }
-p{
-	background-color: green;
-	margin-left: 230px;
-	margin-right: 230px;
-	
-}
-img{
-	width:250px;
-	height: 300px;
+.image+table{
+	font-style: oblique;
 }
