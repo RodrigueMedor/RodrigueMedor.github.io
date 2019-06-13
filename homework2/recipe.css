@@ -1,5 +1,4 @@
 body{
-	background-image: url("images/silverware.jpg");
 	background-repeat: repeat;
 	background-position: 50px 20px;
 }
@@ -54,4 +53,14 @@ p~em{
 p~#footer{
 	float:right;
 	display:block;
+}
+p{
+	background-color: green;
+	margin-left: 230px;
+	margin-right: 230px;
+	
+}
+img{
+	width:250px;
+	height: 300px;
 }
