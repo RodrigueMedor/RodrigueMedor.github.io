@@ -1,3 +1,4 @@
+<%@page import="com.mum.edu.model.User"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ page isELIgnored="false" %> 
@@ -9,7 +10,8 @@
 </head>
 <body> 
 	<h1>Welcome</h1>
-	<p>Dear: <%= request.getSession().getAttribute("name") %></p>
+	<p>Dear:<span style="color:red"> <%= request.getSession().getAttribute("user") %></span></p>
+	
 	
 	Keep the page ideal for 30 seconds
    <br> And try reloading the page

@@ -10,7 +10,11 @@ public class UserDao {
 	public UserDao() {
 		// TODO Auto-generated constructor stub
 		User user= new User("user", "1234");
+		User user1= new User("roro", "pass");
+		User user3= new User("Sara", "love");
 		users.add(user);
+		users.add(user3);
+		users.add(user1);
 		
 	}
 	

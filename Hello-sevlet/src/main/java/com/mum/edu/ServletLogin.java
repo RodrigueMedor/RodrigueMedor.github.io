@@ -26,8 +26,9 @@ public class ServletLogin extends HttpServlet{
 		UserDao userDao= new UserDao();
 		
 		if(userDao.login(user)) {
-			request.getSession().setAttribute("user", user);
-			
+			request.getSession().setAttribute("user", user.getUsername());
+			Cookie cookie = new Cookie("roro", user.getUsername());
+			response.addCookie(cookie);
 
 			((HttpServletResponse)response).sendRedirect(((HttpServletRequest)request).getContextPath()+"/web/welcome");
 		 
