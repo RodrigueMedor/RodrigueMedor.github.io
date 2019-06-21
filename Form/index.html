@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" type="text/css" rel="stylesheet" /> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+            <img src="cof-logo.png" alt="Capital One">
+    </div>
+    <div class="after-header">
+            <h2 class="header-text">We’ve noticed you’ve been inactive for a while.</h2>
+            <p>Your application session has expired. For your protection, our application pages expire due to inactivity.
+                <br/>To restart your application, <a href="#">click here</a></p>
+    </div>
+    <div id="body-form">
+            <p class="title">Important Disclosures</p>
+            Before you submit your application, please read through these Important Disclosures, 
+            which contain additional information about eligibility, rates, and fees, as applicable.
+            <table>
+                <caption>Capital One® Important Disclosures</caption>
+                <tr>
+                    <th>Annual Interest Rate</th>
+                    <td>These interest rates are in effect on approval.<br>
+
+                            Standard Rate for Purchases: 14.9%.<br>
+                            
+                            Standard Rate for Balance Transfers1: 14.9%.<br>
+                            
+                            Standard Rate for Cash Advances2: 19.8%.
+                            If you receive a Gold card, your minimum monthly payment for any given billing period is due by the date specified on the monthly statement for that period. If your minimum monthly payment for a billing period (the "first" billing period) is not received and remains outstanding by the due date of the second billing period, your rates will increase to 29.9%. These new rates will be in effect on the first day of the third billing period.
+                            Example: If you miss the minimum payment due date for your December billing period, it’s very important to make your overdue minimum payment by the due date of your January billing period – otherwise your rates will go up starting on the first day in your February billing period.
+                            Once the increased rate is in effect, if we receive your minimum monthly payment by the due date for 9 consecutive billing periods, your rates will change back to the Standard Rates that apply to your account as defined above, starting from the first day of the 10th billing period.</tr>
+                    </td>
+                </tr>
+            </table>
+
+            <form>
+                <div class="title">Personal Information</div>
+                <div>
+                    <label class="form-elements">First Name</label>
+                    <input type="text" name="fname" required pattern="^([a-zA-Z]){3,}$"/>
+                </div>
+                    <div>
+                    <label class="form-elements">Last Name</label>
+                    <input type="text" name="lname" required pattern="^([a-zA-Z]){3,}$"/>
+                </div>
+                <div>
+                    <label class="form-elements">Date of Birth</label>
+                    <input type="date" name="dob" required/>
+                </div>
+                <div>
+                    <label class="form-elements">Mother's Maiden Name</label>
+                    <input type="text" name="mmname" required pattern="^([a-zA-Z]){3,}$"/>
+                </div>
+                <div>
+                    <label class="form-elements">Social Insurance Number (Optional)</label>
+                    <input type="text" name="ssn" placeholder="_ _ _ - _ _ _ - _ _ _ _" pattern="^([0-9]{3}\-[0-9]{3}\-[0-9]{4})$"/>
+                </div>
+                <div>
+                    <label class="form-elements">How did you learn about this card? (Optional)</label>
+                    <select name="learn">
+                        <option value="select source" disabled selected>select source</option>
+                        <option value="Online banner add or video">Online banner add or video</option>
+                        <option value="Family or friend">Family or friend</option>
+                        <option value="Magazine">Magazine</option>
+                        <option value="Newspaper">Newspaper</option>
+                        <option value="Credit card comparision site">Credit card comparision site</option>
+                        <option value="Other">Other</option>
+                        <option value="Outdoor or transit Ad">Outdoor or transit Ad</option>
+                        <option value="Search engine">Search engine</option>
+                        <option value="Email with capital one content">Email with capital one content</option>
+                        <option value="Television">Television</option>
+                        <option value="Facebook ad or video">Facebook ad or video</option>
+                        <option value="Capital one sponsored event">Capital one sponsored event</option>
+                        <option value="Mail offer">Mail offer</option>
+                    </select>
+                </div>
+                <hr/>
+                
+                <div class="title">Contact Information</div>
+                <div>
+                    <label class="form-elements">Home Address (No P.O. Boxes)</label>
+                    <input type="text" name="homeaddress" required/>
+                </div>
+                <div>
+                    <label class="form-elements">Suite/Apt. # (if applicable)</label>
+                    <input type="text" name="Suite" required/>
+                </div>
+                <div>
+                    <label class="form-elements">Email Address</label>
+                    <input type="email" name="email" required/>
+                </div>
+                <div>
+                    <label class="form-elements">Primary Phone Number</label>
+                    <input type="tel" name="phone" required/>
+                </div>
+                <hr/>
+                
+                <div class="title">Authorized User</div>
+                <div>
+                    <lablel><input type="checkbox" name="authorization"/><strong>Yes!</strong> I would like to add an Authorized User (AU) 
+                    to my account and receive a second card with their name on it.</lablel>
+                </div>
+                <hr/>
+                
+                <div class="title">Employment Information</div>
+                <label>Employment Status</label>
+                <select name="employment" required>
+                    <option value="Select Status" disabled selected>Select Status</option>
+                    <option value="Employed">Employed</option>
+                    <option value="Self Employed">Self Employed</option>
+                    <option value="Retired">Retired</option>
+                    <option value="Student">Student</option>
+                    <option value="Unemployed">Unemployed</option>
+                </select>
+                <hr/>
+                
+                <div class="title">Financial Information</div>
+                    <div>
+                        <label>Do you: (Optional)</label>
+                        <label><input type="radio" name="owner"> Own</label>
+                        <label><input type="radio" name="owner"> Rent</label>
+                        <label><input type="radio" name="owner"> Live with parent</label>
+                        <label><input type="radio" name="owner"> Other</label>
+                    </div>
+                    <div>
+                        <label>Your Annual Income (Before taxes)</label>
+                        <input type="number" min="0" name="income" required/>
+                    </div>
+                    <div>
+                        <label>Other Household Income (Before taxes)</label>
+                        <input type="number" min="0" name="ohterincome" required/>
+                    </div>
+                    <div>
+                        <label>Do you have a mortgage (Optional)</label>
+                        <label><input type="radio" name="martgage"/>Yes</label>
+                        <label><input type="radio" name="martgage"/>No</label>
+                    </div>
+                    <div>
+                        <label>Monthly Rent/Mortgage (Optional)</label>
+                        <input type="number" min="0" name="rent"/>
+                    </div>
+                    <div>
+                        <label>Do you have any bank account?</label>
+                        <select name="haveaccount" required>
+                            <option value="Select A type" disabled selected>Select A type</option>
+                            <option value="Checking and Savings">Checking and Savings</option>
+                            <option value="Checking only">Checking only</option>
+                            <option value="Savings only">Savings only</option>
+                            <option value="Neither">Neither</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Would you like to use your card for cash advances? (Optional)</label>
+                        <label><input type="radio" name="cashadvance" value="yes">Yes</label>
+                        <label><input type="radio" name="cashadvance" value="no">No</label>
+                    </div>
+                    <hr/>
+
+                    <div class="confirm">
+                        <p>
+                        By selecting “Review My Application”, you confirm that you have read, understood and agree to the above 
+                        <a href="">Important Disclosures.</a></p>
+                    </div>
+                    <div id="confirm">
+                        <a href="">Review My Application</a>
+                    </div>
+
+            </form>
+    </div>
+    <div id="app-footer">
+        <span><a href="#">Privacy</a></span> 
+        <span><a href="#">Security</a></span> 
+        <span><a href="#">Terms of Use</a></span>
+        <img src="norton-logo.png" alt="norton"/>
+        <img src="cof-logo.png" alt="capital one"/>
+        
+        <p>Mastercard is a registered trademark, and the circles design is a trademark of Mastercard 
+            International Incorporated. Capital One is a registered trademark of Capital One Financial Corporation, 
+            used under license.
+
+                © 2019 Capital One. All rights reserved.</p>
+    </div>
+    
+</body>
+</html>
+
